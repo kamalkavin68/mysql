@@ -21,7 +21,7 @@
 
 
 
-<li><h4>Create MySQL configuration file</h4></li>
+<h4><li>Create MySQL configuration file</li></h4>
 
 <p>
     The configuration file is used to initiate the MySQL database server. The file contains the following information.
@@ -37,7 +37,8 @@
 
 <p>
     Create a new text file and enter the following parameters in it. We can use a plain text editor (notepad or notepad++) to create the configuration file.
+    <a href="https://github.com/kamalkavin68/mysql/blob/main/config.ini">File like this</a>
 </p>
 
-<a href="https://github.com/kamalkavin68/mysql/blob/main/config.ini">File like this</a>
+<img src="https://github.com/kamalkavin68/mysql/blob/main/configuration-file.PNG" alt="" srcset="">
 
