@@ -42,3 +42,24 @@
 
 <img src="https://github.com/kamalkavin68/mysql/blob/main/configuration-file.PNG" alt="" srcset="">
 
+<p>
+    Save the file as my.ini in the <b>C:\MySQL_Home directory</b> and close the editor.
+</p>
+
+<h4><li>Initialize the data directories and system databases</li></h4>
+
+<p>
+    The ZIP archive of MySQL does not include the data directory; therefore, we must initialize it manually. When we initialize it, MySQL creates the MySQL system database files and system tables in the location specified in the options file.
+
+To initialize MySQL and create MySQL system databases, we must run the mysqld command with the –initialize or –initialize-insecure option. The details of both options are the following:
+
+1. The –initialization option is considered secure by default. When we use this option, MySQL generates a random root password. Once installation completes, the root password will be expired, and you must create a new root password
+2. When we use the –initialize-insecure option, we do not need to specify the root password. It is considered that the user will create the root password before moving on to production. In simple words, we must create a root password before putting this server for production usage
+Before starting the service, we can determine the MySQL Server type. We can configure two types of MySQL Server on Windows.
+
+Mysqld: These are optimized binary files and have named-pipe support
+Mysqld-debug: These are optimized binary and compiled with full debugging. It has automatic memory allocation checking
+In this demo, we will use the mysqld binaries. I am installing MySQL on my workstation to initialize the MySQL data directories; I am using the –initialize-insecure option.
+
+Open the command prompt as an administrator user. First, navigate to the MySQL_Home\bin directory using the cd command.:
+</p>
