@@ -7,4 +7,6 @@
     First, let us download the Zip archive of MySQL 8.0 from the download page. On the <a href="https://dev.mysql.com/downloads/mysql/">download</a> page, choose Microsoft Windows from the Select operating System drop-down page. Select Windows (x86, 64-bit) ZIP archive.
 </p>
 
+<img src="https://github.com/kamalkavin68/mysql/blob/main/mysql-download-page.png" alt="" srcset="">
+
 <li></li>
