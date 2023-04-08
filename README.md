@@ -2,7 +2,7 @@
 
 <h4>The steps to install MySQL is as the following:</h4>
 
-<li><h4>Download and extract the files</h4></li>
+<h4><li>Download and extract the files</li></h4>
 <p>
     First, let us download the Zip archive of MySQL 8.0 from the download page. On the <a href="https://dev.mysql.com/downloads/mysql/">download</a> page, choose Microsoft Windows from the Select operating System drop-down page. Select Windows (x86, 64-bit) ZIP archive.
 </p>
